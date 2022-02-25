@@ -6,7 +6,7 @@ This repository hosts a suite of note taking tools implemented in different prog
 - Dequeue a particular note from the queue
 
 ## Usage
-Invoking `todo`, without any arguements, returns the last note added to the queue.
+Invoking `todo`, without any arguements, returns the first note added to the queue.
 
 Enqueueing a note is done using the following syntax:
 ```
