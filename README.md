@@ -1,12 +1,12 @@
 # Todo
-Todo is a minimalist, queue based note taking tool which allows the user to:
+This repository hosts a suite of note taking tools implemented in different programming lanugages, written mainly to serve as a step up from generic "hello world" projects which must be able to at least perform the following tasks:
 
 - Enqueue a note
 - List all notes
 - Dequeue a particular note from the queue
 
 ## Usage
-Invoking `todo`, without any arguements, returns the last note added to the queue. (Unless the queue is empty, in which case the program will inform the user of this)
+Invoking `todo`, without any arguements, returns the last note added to the queue.
 
 Enqueueing a note is done using the following syntax:
 ```
@@ -24,3 +24,4 @@ Todo -d <number>
 ```
 Where `<number>` is a natural integer which defaults to 1 (aka the first note which was added)
 
+Any other combination of command line arguements will display an help page
